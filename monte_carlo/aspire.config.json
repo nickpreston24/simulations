@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "monte_carlo.AppHost/monte_carlo.AppHost.csproj"
+  }
+}

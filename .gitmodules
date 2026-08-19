@@ -1,4 +1,4 @@
-[submodule "intelisim"]
-	path = intelisim
+[submodule "monte_carlo/intelisim"]
+	path = monte_carlo/intelisim
 	url = https://github.com/bsdillon/intelisim.git
 	branch = main
