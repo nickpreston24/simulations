@@ -1,0 +1,4 @@
+[submodule "intelisim"]
+	path = intelisim
+	url = https://github.com/bsdillon/intelisim.git
+	branch = main
