@@ -12,9 +12,15 @@
     <ItemGroup>
         <ProjectReference Include="..\fournations\FourNations.Simulation.Tests\FourNations.Simulation.Tests.csproj" />
         <ProjectReference Include="..\fournations\FourNations.Simulation\FourNations.Simulation.csproj" />
-        <ProjectReference Include="..\monte_carlo.ApiService\monte_carlo.ApiService.csproj"/>
+        <ProjectReference Include="..\monte_carlo.ApiService\monte_carlo.ApiService.csproj" />
+        <ProjectReference Include="..\PalCentral\PalCentral.csproj" />
         <!--    <ProjectReference Include="..\monte_carlo.Web\monte_carlo.Web.csproj" />-->
 
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CodeMechanic.FileSystem" Version="2.0.17" />
+      <PackageReference Include="CodeMechanic.Shargs" Version="1.0.6" />
     </ItemGroup>
 
 </Project>

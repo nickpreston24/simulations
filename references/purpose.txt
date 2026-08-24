@@ -1,0 +1,10 @@
+This folder is for any github projects we wish to reference or from which we wish to Strategically Transport (code) Equipment to Alternative Locations. :)
+
+Examples might include pyplot's github or a selection from it, or some javascript library.
+
+Basically anything we don't necessarily wish to compile, but wish to learn from goes here as a submodule.
+
+
+- Nick Preston, Code Mechanic.
+
+
