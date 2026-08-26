@@ -2,3 +2,7 @@
 	path = monte_carlo/intelisim
 	url = https://github.com/bsdillon/intelisim.git
 	branch = main
+[submodule "references/DahlgrenTest"]
+	path = references/DahlgrenTest
+	url = https://github.com/bsdillon/DahlgrenTest.git
+	branch = master

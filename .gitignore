@@ -1,3 +1,5 @@
+*.DotSettings.user
+
 #ignore s3 buckets
 **/*/data/s3/
 # ignore pocketbase locals

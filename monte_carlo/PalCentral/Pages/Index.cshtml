@@ -4,6 +4,27 @@
     ViewData["Title"] = "Home page";
 }
 
+@section Scripts {
+    <script>
+        var wsUri = "wss://localhost:5001/ws"; // Adjust to your endpoint
+        var websocket = new WebSocket(wsUri);
+
+        websocket.onopen = function (evt) {
+            console.log("Connected");
+            websocket.send("Hello Server");
+        };
+
+        websocket.onmessage = function (evt) {
+            console.log("Received: " + evt.data);
+        };
+
+        websocket.onerror = function (evt) {
+            console.error("Error: " + evt.data);
+        };
+    </script>
+}
+
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
