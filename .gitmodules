@@ -6,3 +6,7 @@
 	path = references/DahlgrenTest
 	url = https://github.com/bsdillon/DahlgrenTest.git
 	branch = master
+[submodule "references/sourcecodediver"]
+	path = references/sourcecodediver
+	url = https://github.com/bsdillon/sourcecodediver.git
+	branch = main
